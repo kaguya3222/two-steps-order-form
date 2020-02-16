@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/order2-styles.css">
+    <script type="module" src="js/parse-url.js"></script>
+    <script type="module" src="js/order2-scripts/process-collectedURL.js"></script>
+    <script type="module" src="js/order2-scripts/order2-validation.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <form class="second-form info-form" action="result.html" method="get">
+
+            <input name="name" class="hidden-input hidden-name-input" type="hidden">
+            <input name="email" class="hidden-input hidden-email-input" type="hidden">
+            <input name="phone" class="hidden-input hidden-phone-input" type="hidden">
+            <input name="address" class="hidden-input hidden-address-input" type="hidden">
+            <input name="city" class="hidden-input hidden-city-input" type="hidden">
+            <input name="state" class="hidden-input hidden-state-input" type="hidden">
+            <input name="zip" class="hidden-input hidden-zip-input" type="hidden">
+
+            <h1 class="main-text">Sign up</h1>
+
+            <nav class="form-nav">
+                <div class="customer-info-block nav-item non-active-bar">
+                    <p class="nav-text customer-info-text">Your info</p>
+                </div>
+
+                <div class="preferences-block nav-item active-bar">
+                    <p class="nav-text preferences-text bold-text">Your preferences</p>
+                </div>
+
+            </nav>
+
+            <div class="inputs-wrapper">
+
+                <div class="input-holder allergies-holder">
+                    <p class="input-text bold-text">Food allergies</p>
+                    <div class="textarea-holder">
+                        <textarea name="allergies" class="customer-info-input customer-border-input allergies-input"></textarea>
+                    </div>
+                </div>
+
+                <div class="input-holder radio-list-holder">
+                    <p class="radio-list-text bold-text">Frequency</p>
+
+                    <div class="radio-list frequency-list">
+
+                        <div class="radio-list-item">
+                            <input type="radio" class="radio-button frequency-button" name="frequency" value="Weekly">
+                            <span class="radio-item-text">Weekly</span>
+                        </div>
+
+                        <div class="radio-list-item">
+                            <input type="radio" class="radio-button frequency-button" name="frequency" value="Biweekly">
+                            <span class="radio-item-text">Biweekly</span>
+                        </div>
+
+                        <div class="radio-list-item">
+                            <input type="radio" class="radio-button frequency-button" name="frequency" value="Monthly">
+                            <span class="radio-item-text">Monthly</span>
+                        </div>
+
+                        <p class="error-text invalid-color"></p>
+
+                    </div>
+
+                </div>
+
+                <div class="input-holder radio-list-holder">
+                    <p class="radio-list-text bold-text">Package size</p>
+
+                    <div class="radio-list package-list">
+
+                        <div class="radio-list-item">
+                            <input type="radio" class="radio-button package-button" name="package size" value="Taste test">
+                            <span class="radio-item-text">Taste test</span>
+                        </div>
+
+                        <div class="radio-list-item">
+                            <input type="radio" class="radio-button package-button" name="package size" value="Healthy Highlight">
+                            <span class="radio-item-text">Healthy Highlight</span>
+                        </div>
+
+                        <div class="radio-list-item">
+                            <input type="radio" class="radio-button package-button" name="package size" value="Full plate">
+                            <span class="radio-item-text">Full plate</span>
+                        </div>
+
+                        <p class="error-text invalid-color"></p>
+
+                    </div>
+                </div>
+            </div>
+
+            <button class="submit-button black-border pointer gray-gradient-bg">
+                <span class="submit-button-text yellow-text">Sign up</span>
+            </button>
+        </form>
+    </div>
+</body>
+</html>

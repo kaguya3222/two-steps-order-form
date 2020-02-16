@@ -1,0 +1,43 @@
+@import "main-styles";
+
+.input-holder {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0 0 5px 30px;
+  min-width: 130px;
+}
+
+.textarea-holder {
+  margin-top: 15px;
+  align-self: flex-end;
+}
+
+.allergies-holder {
+  width: 275px;
+}
+
+.allergies-input {
+  width: 210px;
+  height: 145px;
+  padding-left: 5px;
+}
+
+.radio-list {
+  align-self: flex-end;
+  width: 190px;
+}
+
+.radio-list-text {
+  margin-bottom: 10px;
+}
+
+.radio-list-item {
+  margin-top: 5px;
+}
+
+.error-text {
+  display: none;
+  margin-top: 5px;
+  font-size: 12px;
+  align-self: center;
+}

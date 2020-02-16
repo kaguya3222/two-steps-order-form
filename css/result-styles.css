@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+}
+
+.main-text {
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-block {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.gray-bg {
+  background: #d5d4d4;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=result-styles.css.map */

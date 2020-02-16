@@ -1,0 +1,124 @@
+@import "variables";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: $mainFont;
+}
+
+input, textarea, button:focus {
+  outline: none;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.info-form {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.main-text {
+  margin-bottom: 20px;
+}
+
+.form-nav {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 260px;
+  height: 45px;
+  margin-bottom: 35px;
+}
+
+.nav-item {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.customer-info-block {
+  width: 100px;
+  height: 45px;
+}
+
+.customer-border-input {
+  border-radius: 5px;
+  border: 2px solid $inputBorderColor;
+}
+
+.active-bar {
+  border: 2px solid $activeNavBarBorderColor;
+  background: $activeNavBarBackgroundColor;
+  color: $activeNavBarTextColor;
+}
+
+.non-active-bar {
+  border: 2px solid $nonActiveNavBarBorderColor;
+  background: $nonActiveNavBarBackgroundColor;
+  color: $nonActiveNavBarTextColor;
+}
+
+.preferences-block {
+  width: 160px;
+  height: 45px;
+}
+
+.inputs-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+}
+
+.submit-button {
+  align-self: flex-end;
+  border-radius: 20px;
+  width: 120px;
+  height: 40px;
+  transition: 0.2s all ease;
+  &:hover {
+    background: linear-gradient(to  bottom, #7d7568, #ede8dd);
+  }
+}
+
+.gray-gradient-bg {
+  background: linear-gradient(to bottom, #ede8dd, #7d7568);
+}
+
+.submit-button-text {
+  font-size: 21px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.yellow-text {
+  color: yellow;
+}
+
+.black-border {
+  border: 3px solid black;
+}
+
+.invalid-color {
+  color: $invalidColor;
+}
+
+.invalid-input {
+  border: 2px solid $invalidColor;
+}
+
+.valid-input {
+  border: 2px solid $validColor;
+}

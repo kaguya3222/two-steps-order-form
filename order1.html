@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/order1-styles.css">
+    <script type="module" src="js/order1-scripts/order1-validation.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <form class="first-form info-form" action="order2.html" method="get">
+
+            <h1 class="main-text">Sign up</h1>
+
+            <nav class="form-nav">
+
+                <div class="customer-info-block nav-item active-bar">
+                    <p class="nav-text customer-info-text bold-text">Your info</p>
+                </div>
+
+                <div class="preferences-block nav-item non-active-bar">
+                    <p class="nav-text preferences-text">Your preferences</p>
+                </div>
+
+            </nav>
+
+            <div class="inputs-wrapper">
+
+                <div class="input-holder name-holder">
+                    <p class="input-text bold-text">Name</p>
+                    <input name="name" type="text" class="customer-info-input customer-border-input name-input">
+                    <p class="error-text invalid-color"></p>
+                </div>
+
+                <div class="input-holder email-holder">
+                    <p class="input-text bold-text">Email</p>
+                    <input name="email" type="email" class="customer-info-input customer-border-input email-input">
+                    <p class="error-text invalid-color"></p>
+                </div>
+
+                <div class="input-holder phone-holder">
+                    <p class="input-text bold-text">Phone</p>
+                    <input name="phone" type="text" class="customer-info-input customer-border-input phone-input">
+                    <p class="error-text invalid-color"></p>
+                </div>
+
+                <div class="input-holder address-holder">
+                    <p class="input-text bold-text">Address</p>
+                    <input name="address" type="text" class="customer-info-input customer-border-input address-input">
+                    <p class="error-text invalid-color"></p>
+                </div>
+
+                <div class="input-holder city-holder">
+                    <p class="input-text bold-text">City</p>
+                    <input name="city" type="text" class="customer-info-input customer-border-input city-input">
+                    <p class="error-text invalid-color"></p>
+                </div>
+
+                <div class="input-holder state-holder">
+                    <p class="input-text bold-text">State</p>
+                    <input name="state" type="text" class="customer-info-input customer-border-input state-input">
+                    <p class="error-text invalid-color"></p>
+                </div>
+
+                <div class="input-holder zip-holder">
+                    <p class="input-text bold-text">Zip</p>
+                    <input name="zip" type="text" class="customer-info-input customer-border-input zip-input">
+                    <p class="error-text invalid-color"></p>
+                </div>
+
+            </div>
+
+            <button class="submit-button black-border pointer gray-gradient-bg">
+                <span class="submit-button-text yellow-text">Next ></span>
+            </button>
+        </form>
+    </div>
+</body>
+</html>

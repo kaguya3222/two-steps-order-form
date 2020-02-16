@@ -1,0 +1,44 @@
+@import "main-styles";
+
+.inputs-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+}
+
+.input-holder {
+  display: grid;
+  grid-template-columns: 65px auto;
+  grid-column-gap: 13px;
+  margin-bottom: 10px;
+}
+
+.customer-info-input {
+  padding-left: 5px;
+}
+
+.input-text {
+  justify-self: flex-end;
+}
+
+.city-input {
+  width: 125px;
+}
+
+.state-input {
+  width: 35px;
+}
+
+.zip-input {
+  width: 125px;
+}
+
+.error-text {
+  display: none;
+  grid-column: 2/3;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+
+

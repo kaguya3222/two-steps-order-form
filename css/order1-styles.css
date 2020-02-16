@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+
+input, textarea, button:focus {
+  outline: none;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.info-form {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.main-text {
+  margin-bottom: 20px;
+}
+
+.form-nav {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 260px;
+  height: 45px;
+  margin-bottom: 35px;
+}
+
+.nav-item {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.customer-info-block {
+  width: 100px;
+  height: 45px;
+}
+
+.customer-border-input {
+  border-radius: 5px;
+  border: 2px solid #aaa6a5;
+}
+
+.active-bar {
+  border: 2px solid #4a4947;
+  background: #818181;
+  color: #d3c751;
+}
+
+.non-active-bar {
+  border: 2px solid #b0b1b0;
+  background: #a9aaaa;
+  color: #c4c3c3;
+}
+
+.preferences-block {
+  width: 160px;
+  height: 45px;
+}
+
+.inputs-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+}
+
+.submit-button {
+  align-self: flex-end;
+  border-radius: 20px;
+  width: 120px;
+  height: 40px;
+  transition: 0.2s all ease;
+}
+.submit-button:hover {
+  background: linear-gradient(to bottom, #7d7568, #ede8dd);
+}
+
+.gray-gradient-bg {
+  background: linear-gradient(to bottom, #ede8dd, #7d7568);
+}
+
+.submit-button-text {
+  font-size: 21px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.yellow-text {
+  color: yellow;
+}
+
+.black-border {
+  border: 3px solid black;
+}
+
+.invalid-color {
+  color: #e74c3c;
+}
+
+.invalid-input {
+  border: 2px solid #e74c3c;
+}
+
+.valid-input {
+  border: 2px solid #2ecc71;
+}
+
+.inputs-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+}
+
+.input-holder {
+  display: grid;
+  grid-template-columns: 65px auto;
+  grid-column-gap: 13px;
+  margin-bottom: 10px;
+}
+
+.customer-info-input {
+  padding-left: 5px;
+}
+
+.input-text {
+  justify-self: flex-end;
+}
+
+.city-input {
+  width: 125px;
+}
+
+.state-input {
+  width: 35px;
+}
+
+.zip-input {
+  width: 125px;
+}
+
+.error-text {
+  display: none;
+  grid-column: 2/3;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=order1-styles.css.map */
